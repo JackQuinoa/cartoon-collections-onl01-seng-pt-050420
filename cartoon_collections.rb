@@ -11,10 +11,8 @@ def long_planeteer_calls(calls)
   if
   
   else
-    
-    
+    false
   end
-    true 
 end
 
 #def find_the_cheese(strings)
