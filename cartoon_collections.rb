@@ -12,7 +12,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(strings)
-  strings.find { |element| element == }
+  strings.find { |element| element == cheese_types.any? }
  
  
  cheese_types = ["cheddar", "gouda", "camembert"]
