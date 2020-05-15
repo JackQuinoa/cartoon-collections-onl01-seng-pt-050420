@@ -13,7 +13,6 @@ end
 
 def find_the_cheese(strings)
   if strings.include?(#{cheese_types.any?})
-   binding.pry
     
  
  
