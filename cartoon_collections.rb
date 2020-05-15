@@ -7,13 +7,13 @@ def summon_captain_planet(planteer_calls)
  planteer_calls.map { |call| call.capitalize + "!"}
 end
 
-#def long_planeteer_calls(calls)
-  #if calls.length > 4
-   # true 
-  #else 
-   # false 
-  #end
-#end
+def long_planeteer_calls(calls)
+  if calls.length > 4
+    true 
+  else 
+    false 
+  end
+end
 
 #def find_the_cheese(strings)
   # strings.include?(#{cheese_types})
