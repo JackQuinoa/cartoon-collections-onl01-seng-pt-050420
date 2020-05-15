@@ -12,7 +12,11 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(strings)
-  strings.find { |element| element == #{cheese_types} }
+  strings.find { |element| if element == #{cheese_types} 
+                            return element 
+                          else 
+                            return nil
+  }
     
  
  
