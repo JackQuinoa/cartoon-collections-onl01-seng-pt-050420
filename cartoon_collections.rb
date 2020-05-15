@@ -12,8 +12,9 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(strings)
-  if strings.include?( #{cheese_types} )
-    return #{cheese_types}
+  if strings.include?(#{cheese_types.any?})
+    return strings.include
+    
  
  
  ## the array below is here to help
